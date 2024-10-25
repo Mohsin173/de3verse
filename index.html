@@ -1,0 +1,659 @@
+<html>
+<head>
+    <title>De3Verse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+       
+
+      
+    
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+
+        body{
+           background-image: url(./images/Group\ 56.png);
+         
+           overflow-x: hidden;
+           box-sizing: border-box;
+        }
+        .de3{
+            color: rgb(212, 14, 212);
+        }
+        
+        .nav-link{
+         margin-inline: 1vw;
+        }
+        .navbar{
+       margin-inline: 8vw;
+       margin-top: 80px;
+      
+       
+    
+        }
+        .connect-wallet{
+            color: rgb(162, 14, 212);
+            padding-inline: 25px;
+           
+        }
+        .last-nav-link{
+            border: solid 1.7px rgb(162, 14, 212);
+            border-radius: 7px;
+            
+        }
+        .fst-h1{
+            color: rgb(157, 83, 191);
+            font-size: 75px;
+            font-family: neuton;
+        }
+        .dive-into{
+            color: rgb(115, 103, 193);
+        }
+        .new-world{
+            color: rgb(182, 178, 178);
+            font-family: neuton;
+            font-size: 60px;
+            word-spacing: 0.6vw;
+        }
+        .fst-p{
+            max-width: 73%;
+            
+        }
+        .explore-now{
+           background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+
+        }
+        .learn-more-btn{
+          color: gainsboro;
+          
+        }
+        .fst-section{
+         margin-top: 50px;
+        }
+       .navbar-nav{
+        margin-left: 40px;
+       }
+        .explore-now:hover{
+          color: seashell;
+        }
+        .navbar-toggler{
+        border-color: white;
+        }
+        .navbar-toggler-icon{
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+      .learn-more-btn:hover{
+        color:  rgb(162, 14, 212);
+      }
+      .how-h1{
+        color: rgb(157, 83, 191);
+        font-size: 55px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+      }
+      .upper-img{
+        margin-bottom: -50px;
+        left: 80px;
+      }
+      .lower-img{
+        margin-top: -20px;
+        right: 120px;
+       
+      }
+      .metasupport{
+        color: rgb(151, 52, 52);
+      }
+      .get-a-quote{
+        color:  rgb(162, 14, 212);
+        border: 1px solid rgb(162, 14, 212);
+
+      }
+      .get-a-quote:hover{
+        color: #fc98fc;
+        border-color: #fc98fc;
+      }
+      .third-section{
+        margin-top: 100px;
+      }
+      .vector-round{
+        background-color: rgb(237, 69, 69);
+       padding: 7px;
+        border-radius: 5px;
+        max-width: 100%;
+      }
+      .learning-system{
+        color: rgb(163, 160, 160);
+      }
+     
+      
+       .accordion-content{
+         margin-top: -45px;
+         padding-inline: 20px;
+       }
+       .woman-img-content{
+         background-image: url(./images/Rectangle\ 5.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         border-radius: 9px;
+       }
+       .video-btn{
+         margin-top: -130px;
+       }
+       .play-and-join{
+        color: rgb(228, 11, 11);
+       }
+      
+       .play-cards{
+       background-color: rgb(41, 39, 39);
+       border: 1px solid grey;
+       border-radius: 10px;
+       }
+       .second-play-card{
+        background-image: url(./images/rectangle-colorful.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .cards-container{
+        margin-top: 80px;
+       }
+       .man-img{
+        margin-top: -130px;
+       right: 80px;
+       }
+       .metaworld-section{
+        background-image: url(./images/map-bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+       .get-started-col{
+        background-image: url(./images/Rectangle\ 11.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        position: relative;
+        margin-top: -20px;
+       }
+       .meta{
+        color: #a00da0;
+       }
+       .get-started-btn{
+        background-color: black ;
+        color: #791b79;
+        margin-top: 40px;
+       }
+       .get-started-btn:hover{
+        color: rgb(204, 196, 196);
+        background-color: #a00da0;
+       }
+       .cropped-img{
+        width: 45%;
+        right: 40px;
+       }
+       .banner-col{
+        background-image: url(./images/Banner.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding-block: 18px;
+        border-radius: 10px;
+       }
+       .de3-2{
+        color: #a00da0;
+       }
+       .last-p{
+        color: rgb(119, 141, 152);
+        display: inline-block;
+        max-width: 80%;
+        text-align: justify;
+       }
+       li{
+        color: rgb(119, 141, 152);
+       list-style-type: none;
+       }
+       ul{
+        margin: 0;
+        padding: 0;
+       }
+       ul li{
+       margin-bottom: 20px;
+       }
+       .last-nav-link:hover{
+       background-color: #f592f5 !important;
+       
+       }
+      .nav-link:hover{
+        color: #e14be1 !important;
+      }
+     
+     
+       
+
+       
+       
+
+       
+
+
+
+
+     @media (max-width: 767.98px){
+      .navbar{
+        position: static;
+      }
+      .navbar{
+        margin-top: 30px;
+      }
+      .fst-h1{
+        font-size: 45px;
+      }
+      .fst-p{
+       text-align: center;
+        margin-block: 40px;
+      
+      }
+       .explore-now{
+        padding-block: 0px !important;
+        padding-inline: 8px !important;
+
+       }
+      .two-btns{
+        gap: 20px !important;
+      }
+      .how-h1{
+        font-size: 46px;
+        margin-top: 40px !important;
+      }
+      .icon-image{
+        margin-top: 20px;
+      }
+      .upper-img {
+      width: 46%;
+      margin-bottom: -23px;
+      left: 80px;
+      }
+      .lower-img{
+        width: 46%;
+        margin-top: -20px;
+        right: 80px;
+      }
+      .third-section{
+        margin-top: 100px;
+        margin-bottom: 50px;
+      }
+      .metasupport{
+        margin-top: 40px;
+      }
+     
+      .lower-pygon{
+        position: relative;
+        left: 30px;
+      }
+     .accordion-content{
+      margin-top: -35px;
+     }
+     .woman{
+      width: 80%;
+     }
+     .video-btn{
+      margin-top: -110px;
+      }
+      .lower-accordion{
+         margin-top: 21px !important;
+      }
+      .woman-img-content{
+      margin-top: 0px !important;
+      }
+      .play-and-join-heading{
+        padding-inline: 15px;
+        text-align: center;
+      }
+      .play-cards{
+        padding-block: 0px !important;
+        width: 40% !important;
+      }
+      .second-play-card{
+        padding-block: 0px !important;
+        width: 40% !important;
+        border-radius: 10px;
+      }
+      .cards-container{
+        margin-top: 50px;
+        margin-bottom: 40px;
+       }
+       .single-img{
+        width: 90% !important;
+       }
+       .man-img{
+        width: 60%;
+        margin-top: -70px;
+        right: 0px;
+       }
+       .fourth-section{
+        margin-bottom: 30px;
+       }
+       .metaworld-section{
+        margin-top: 70px !important;
+        margin-inline: 0px !important;
+       }
+       .get-started-col{
+        padding-bottom: 27px;
+       }
+       .the-photo{
+        width: 40%;
+        position: relative;
+        left: 20px;
+       }
+       .popular-card-img{
+        width: 90%;
+        margin-top: -25px !important;
+       }
+       .banner-container{
+        margin-top: 30px;
+       width: 86%;
+       
+       }
+       .cropped-img{
+        width: 55%;
+        right: 10px;
+       }
+       .last-section{
+        padding-inline: 30px;
+        padding-block: 40px;
+       }
+       .union-img{
+        width: 20%;
+       }
+       .last-p{
+        max-width: 100% !important;
+       }
+       .about-us{
+        font-size: larger;
+       }
+       .t-and-c{
+        font-size: larger;
+        margin-top: 40px;
+       }
+       .faq{
+        font-size: larger;
+        margin-top: 30px;
+       }
+       ul li{
+       margin-bottom: 10px;
+       }
+       .footer-img{
+        margin-top: 0px !important;
+       }
+       
+       
+      
+      
+    
+     
+
+     
+
+
+
+     }
+  
+        
+            
+         
+         
+    </style>
+</head>
+<body>
+    <nav class="navbar nav-c-nav navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class='navbar-brand text-white fw-semibold' href='/'><span class="de3">de3</span>Verse</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item">
+                <a aria-current='page' class='nav-link text-white' href='Explore.html'>Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class='nav-link privacy-policy text-white' href='Privacy Policy.html'>Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                <a class='nav-link text-white' href='/T&C.html'>T&C</a>
+              </li>
+              <li class="nav-item">
+                <a class='nav-link text-white' href='/FAQs.html'>FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class='nav-link text-white' href='/About Us.html'>About Us</a>
+              </li>
+              <li class="nav-item ">
+                <a class='nav-link text-white last-nav-link  ' href='connect wallet.html'><span class="connect-wallet">Connect Wallet</span></a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="fst-section ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h1 class="fst-h1 text-center fw-semibold">METAVERSE</h1>
+                    <h1 class="text-capitalize mt-5 text-center new-world"><span class="dive-into">dive into</span> new world</h1>
+                   <div class="d-flex justify-content-center"> <p class="fst-p text-white mt-4  justify-content-center  ">with virtual technology you can see the digital world feel more real and you can play the game with a new style.</p></div>
+                   <div class="d-flex justify-content-center two-btns gap-5 mt-4">
+                   <button class="rounded px-3 py-2 explore-now border-0">Explore Now</button>
+                   <button class="px-3 py-2 rounded border btn learn-more-btn"><i class="fa-regular fa-circle-play"></i> Learn More > </button>
+                   </div>
+                </div>
+                <div class="col-12 col-md-6 my-5">
+                  <img class="img-fluid" src="./images/0000 1.png" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="how-it-works">
+        <h1 class="how-h1 text-center fw-semibold">How it works</h1>
+      </section>
+
+      <section class="second-section my-5">
+        <div class="container ">
+          <div class="row d-flex justify-content-center align-content-center " >
+            <div class="col-12 col-md-3 text-center">
+              <img  src="./images/Icon Box.png" alt="">
+            </div>
+            <div class="col-12 col-md-3 text-center">
+              <img class="icon-image " src="./images/Icon Box (1).png" alt="">
+            </div>
+            <div class="col-12 col-md-3 text-center">
+              <img class="icon-image" src="./images/Icon Box (2).png" alt="">
+            </div>
+            <div class="col-12 col-md-3 text-center">
+              <img class="icon-image " src="./images/Icon Box (3).png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="third-section">
+        <div class="container">
+          <div class="row d-flex " style="min-height: 100vh;">
+            <div class="col-12 col-md-6 text-center position-relative">
+              <img class="img-fluid position-relative z-2 upper-img" src="./images/upper.png" alt="">
+              <img class="img-fluid w-75 position-relative z-1" src="./images/twooo.png" alt="">
+              <img class="img-fluid position-relative z-2 lower-img" src="./images/lower.png" alt="">
+            </div>
+            <div class="col-12 col-md-6">
+              <h1 class="fw-semibold metasupport text-center">MetaSupport</h1>
+          <div class="text-center my-4">  <button class="btn rounded-pill get-a-quote">Get a Quote</button> </div>
+
+         <!-- accodion-item upper-->
+         <img class="z-1 position-relative img-fluid " src="./images/Rectangle 5 (1).png" alt="">
+         <div class="accordion-content d-flex gap-3 z-2 position-relative">
+          <div><img class="vector-round" src="./images/Vector-round.png" alt=""></div>
+          <div><p class="learning-system">Learning System</p></div>
+          <div class="ms-auto"><img class="upper-pygon " src="./images/Polygon 2.png" alt=""></div>
+         </div>
+          <!-- woman-img-content -->
+           <div class="woman-img-content my-3 text-center">
+            <img class="woman" src="./images/woman-wearing-smart-glasses-futuristic-technology-digital-remix 1.png" alt="">  </div>
+           <div class="video-btn text-center position-relative ">   <img src="./images/video-btn.png" alt=""> </div>
+             
+
+           <img class="z-1 position-relative img-fluid lower-accordion mt-5" src="./images/Rectangle 5 (1).png" alt="">
+           <div class="accordion-content d-flex gap-3 z-2 position-relative">
+            <div><img class="vector-round" src="./images/Vector-round.png" alt=""></div>
+            <div><p class="learning-system">Responsible Innovation</p></div>
+            <div class="ms-auto"><img class="upper-pygon " src="./images/Polygon 2.png" alt=""></div>
+           </div>
+          
+
+
+
+
+        </div> 
+        </div>
+        </div>
+      </section>
+
+      <section class="fourth-section ">
+        <div class="container">
+          <div class="row d-flex " style="min-height: 80vh;">
+            <!-- fourth-section-left-col -->
+            <div class="col-12 col-md-6">
+              <h1 class="text-white fw-semibold play-and-join-heading"> <span class="play-and-join ">Play and join events</span>  by Friends of the Metaverse</h1>
+            
+              <div class="container cards-container">
+                <div class="row align-content-center d-flex  gap-4 justify-content-center"  style="min-height: 25vh; width: 100%; ">
+                  <div class="col-12 col-md-4 play-cards py-3 " style="width: 25%;">
+                  <div class="text-center my-3">   <img src="./images/round-brown.png" alt=""> </div>
+                    <p class="text-secondary text-center my-3">Connect Wallet</p>
+                  </div>
+                  <div class="col-12 col-md-4 second-play-card py-3  "  style="width: 25%;" >
+                  <div class="text-center my-3">   <img src="./images/round-black.png" alt=""> </div>
+                    <p class="text-secondary text-center my-3">Events & <br> Play</p>
+                  </div>
+                  <div class="col-12 col-md-4 play-cards py-3  "  style="width: 25%;">
+                  <div class="text-center my-3">   <img src="./images/round-brown.png" alt=""> </div>
+                    <p class="text-secondary text-center my-3">Meet <br> Friends</p>
+                  </div>
+                </div>
+              </div>
+              
+
+
+            </div>
+            <!-- fourth-section-right-col -->
+            <div class="col-12 col-md-6">
+            <div class="d-flex flex-column justify-content-center"> 
+             <div class="text-center">  <img class="img-fluid w-75 position-relative z-1 single-img" src="./images/single-img.png" alt=""> </div>
+            <div class="ms-auto z-2 position-relative man-img">   <img class="img-fluid " src="./images/lower.png" alt=""> </div>  </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
+      <section class="metaworld-section mx-5 pb-5">
+      <div class="container">
+        <div class="row d-flex flex-column align-content-center " style="min-height: 60vh;">
+          <!-- metaworld-section-first-col -->
+          <div class="col-10 get-started-col " style="min-height: 48vh;">
+           <h1 class="text-center text-black fw-bold pt-5 pb-2">Get started with  <span class="meta">META</span><span class="text-white">WORLD</span></h1>
+           <p class="text-center text-black">The Metaverse is the next evolution of social connection. </p>
+         <div class="text-center">    <button class="btn px-5 py-2 get-started-btn">Get Started</button> </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row d-flex justify-content-center align-content-center" style="min-height: 50vh;">
+          <div class="col-12 col-md-5 d-flex  justify-content-center align-content-center">
+       <img class="img-fluid popular-card-img" src="./images/Popular  Card 2.png" alt=""> </div>
+
+        <div class="col-12 col-md-5"> 
+       <img class="img-fluid z-1 position-relative the-photo " src="./images/photo-1634986666676-ec8fd927c23d 1.png" alt="">
+      <img class="img-fluid cropped-img z-2 position-relative" src="./images/file-2.png" alt="">
+    </div>
+        </div>
+      </div>
+
+      <div class="container banner-container ">
+        <div class="row justify-content-center align-content-center" style="min-height: 15vh;">
+          <div class="col-12 col-md-5 banner-col">
+            <h4 class="text-center fw-bold text-white">MEET Your community</h4>
+            <h5 class="text-white text-center">on <span class="de3-2 fw-bold">de3</span>Verse</h5>
+          </div>
+        </div>
+      </div>
+            
+        
+
+    
+         
+        
+      </section>
+
+      <section class="last-section  ">
+        <div class="container">
+          <div class="row d-flex justify-content-center align-content-center" style="min-height: 95vh;">
+            <!-- first-col-started -->
+            <div class="col-12 col-md-6">
+              <div class="d-flex gap-1"><img class="union-img" src="./images/Union.png" alt=""> <h2 class="text-white pt-3"><span class="de3">de3</span>Verse</h2> </div>
+              <p class="last-p fw-semibold mt-2 ">We will launch our first collection Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non quis debitis quibusdam quod!</p>
+              <img class="img-fluid my-4" src="./images/Contact.png" alt="">
+            </div>
+              <!-- second-col-started -->
+            <div class="col-12 col-md-2">
+              <p class="about-us text-white">About Us</p>
+              <ul >
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Careers</li>
+                <li>In press</li>
+                <li>Gallery</li>
+              </ul>
+              <img class="img-fluid footer-img mt-5" src="./images/Socials.png" alt="">
+            </div>
+            <!-- third-col-started -->
+            <div class="col-12 col-md-2">
+              <p class="t-and-c text-white">T&C</p>
+              <ul >
+                <li>Contact Us</li>
+                <li>Online chat</li>
+                <li>whatsapp</li>
+                <li>Telegram</li>
+                <li>Ticketing</li>
+                <li>Call center</li>
+              </ul>
+            </div>
+            <!-- fourth-col-started -->
+            <div class="col-12 col-md-2">
+              <p class="faq text-white">FAQs</p>
+              <ul >
+                <li>Account</li>
+                <li>Manage Deliveries</li>
+                <li>Orders</li>
+                <li>Payments</li>
+                <li>Returns</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
